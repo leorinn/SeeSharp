@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compare\Comparer.cs" />
     <Compile Include="Inhetirance\OverrideAndNew.cs" />
     <Compile Include="Inhetirance\OverrideAndNew2.cs" />
+    <Compile Include="Linq\SelectManyDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

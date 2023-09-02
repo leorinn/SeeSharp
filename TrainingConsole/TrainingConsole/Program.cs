@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrainingConsole.Linq;
 
 namespace TrainingConsole
 {
@@ -10,6 +11,7 @@ namespace TrainingConsole
     {
         static void Main(string[] args)
         {
+            SelectManyDemo.uniqueCombinations();
         }
     }
 }
