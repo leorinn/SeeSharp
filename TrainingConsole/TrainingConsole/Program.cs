@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TrainingConsole.Linq;
+using TrainingConsole.OOP;
 
 namespace TrainingConsole
 {
@@ -11,7 +12,9 @@ namespace TrainingConsole
     {
         static void Main(string[] args)
         {
-            SelectManyDemo.uniqueCombinations();
+            //SelectManyDemo.uniqueCombinations();
+
+            CoContraEtc.CoContraEtcDemo();
         }
     }
 }

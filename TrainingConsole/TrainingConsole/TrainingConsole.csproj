@@ -47,6 +47,7 @@
     <Compile Include="Inhetirance\OverrideAndNew.cs" />
     <Compile Include="Inhetirance\OverrideAndNew2.cs" />
     <Compile Include="Linq\SelectManyDemo.cs" />
+    <Compile Include="OOP\CoContraEtc.cs" />
     <Compile Include="OOP\Demo1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

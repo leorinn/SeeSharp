@@ -31,27 +31,27 @@ namespace TrainingConsole.OOP
             //Animal cat = new Animal(); 
             //Error CS7036  There is no argument given that corresponds to the required parameter 'name' of 'Animal.Animal(string)'
         }
-    }
-    public class Person
-    {
-        private string name;
-        public Person(string name)
+        public class Person
         {
-            this.name = name;
+            private string name;
+            public Person(string name)
+            {
+                this.name = name;
+            }
+            public Person Friend { get; set; }
+            public string AskFriendName()
+            {
+                return Friend.name;
+            }
         }
-        public Person Friend { get; set; }
-        public string AskFriendName()
-        {
-            return Friend.name;
-        }
-    }
 
-    public class Animal
-    {
-        private string name;
-        public Animal(string name)
+        public class Animal
         {
-            this.name = name;
+            private string name;
+            public Animal(string name)
+            {
+                this.name = name;
+            }
         }
     }
 }
